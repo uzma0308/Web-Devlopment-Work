@@ -1,0 +1,110 @@
+        body {
+         font-family: "Lato", sans-serif;
+         }
+         tr{
+           background-color:#FFF0F5; 
+         }
+         a:hover{
+         	background-color: white;
+         	color:black;
+         }
+         table{
+         border-collapse:collapse;
+         font-size:25px;
+         width: 105%;
+
+         }
+
+          td{
+           border:1px solid black; padding:10px; width:100px;
+
+         }
+         .td1{
+               border:1px solid black;padding:0px 10px 4px 10px;
+            }
+
+            .btn_div{
+            float:right
+         }
+         .buttn{
+         background-color: black;
+         font-size: 20px;
+         color: white;border-radius: 19px;
+         text-decoration: none;
+         padding: 11px 40px;
+         }
+         .menu_div
+         {
+           height: 100%;width: 17%;position: fixed;
+            top: 0;
+            left: 0;
+             background-color: #111;
+             padding-top: 20px;
+         }
+         a{
+
+         padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181; 
+          display: block;
+              }   
+              .menu
+              {
+                padding: 4px 18px;
+                 color:white
+              } 
+              .heading
+              {
+               width:88%;
+               height:100%;
+               margin:auto;
+                background-color:white;
+                font-family: monospace;
+                font-size:15px;
+            }
+            .date{
+                width:25%;
+                float:left;
+            }
+            .wef
+            {
+             margin-top: 28px;
+             font-weight: bold;
+            }
+            .cse
+            {
+               margin-top:-5px;
+            }
+            .clg_style
+            {
+               display: inline-block;
+            }
+           
+
+            .row1
+            {
+            background-color:#FAFAD2;
+            font-size: 36px;
+            }
+             
+             .sports
+             {
+             border:1px solid black;
+              padding:20px 10px 20px 10px;
+              background-color:#ECCEF5;
+             }
+             span
+             {
+               font-size: 13px;
+             }
+
+             span:nth-child(3){
+              float: right;
+             }
+                
+             span:nth-child(2){
+              float: left;
+             }
+                
+

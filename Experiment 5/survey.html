@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="./style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+<div class="logo">
+  DEMO FORM
+</div>
+<div class="menu">
+<ul>
+ <li><a href="feedback.html">Feedback</a></li>
+ <li><a class="active" href="survey.html">Survey</a></li>
+ 
+  <li><a href="mcq.html">MCQ</a></li>
+   <li><a href="personal.html">Personal Details</a></li>
+   <li><a href="uzma.html">Login</a></li>
+</ul>
+</div>
+
+<div class="login_form">
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Survey</h1>
+    <p>This is a survey regarding Delhi Metro</p>
+    <hr>
+
+    <label>Around how many times a week do you use the Metro bus system?<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="ser"checked> Once a week<br>
+    <input type="radio" name="ser"> 2-4 times a week<br>
+    <input type="radio" name="ser"> 5+ times a week 
+<br><br>
+<label>For what reason do you use Metro? Check all that apply.<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="rec" checked> I used it to get to work.<br>
+    <input type="radio" name="rec"> I used it to get to school.<br>
+    <input type="radio" name="rec">Other
+    
+    <br><br>
+    <label>Which payment method for the Metro is the most convenient for you?<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="vis"checked>Bus passes and tokens<br>
+    <input type="radio" name="vis" >The tap card<br>
+    <input type="radio" name="vis">The EZ transit pass
+    
+    <br><br>
+    <label>If you have access to a car, do you find riding the Metro more convenient for you? If so, why?<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="sat" checked>Yes<br>
+    <input type="radio" name="sat">No<br>
+    <textarea name="message" style="width:100%; height:100px"></textarea>
+    
+    <br><br>
+    <label>Do you prefer to take the Metro train or bus?<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="sat" checked>I prefer to take the train.<br>
+    <input type="radio" name="sat">I prefer to take the bus<br>
+     <input type="radio" name="sat">Depends on my destination<br>
+    <textarea name="message" style="width:100%; height:100px"></textarea>
+    
+    <br><br>
+    <label>Overall would you consider your experience on the Metro to be ultimately positive.<span style="color:red">*</span></label>
+    <br>
+    <input type="radio" name="sat" checked>Yes<br>
+    <input type="radio" name="sat">Somewhat<br>
+     <input type="radio" name="sat">No<br>
+    <textarea name="message" style="width:100%; height:100px"></textarea>
+    
+    <br><br>
+ <div class="clearfix">
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

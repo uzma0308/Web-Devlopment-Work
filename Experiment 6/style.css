@@ -1,0 +1,126 @@
+
+     html,body { 
+     	height: 100%; 
+     	width: 100%;
+     	 margin: 0;
+     	  font-family: monospace; }
+     	 .button
+     	 {
+     	
+     	 	background-color: #81D4FA;
+    border: none;
+    color: white;
+    font-family: monospace;
+    border-bottom-left-radius: 43px;
+    /* border-radius: 107px; */
+    font-size: 28px;
+    display: block;
+    margin-top: 20px;
+    padding: 14px 100px;
+     	 }
+
+     	 .btn
+     	 {
+     	 	    margin-top: 15%;
+    margin-left: 10%;
+     	 }
+
+     .header
+     {
+     	    height: 43px;
+    width: 100%;
+    background-color: darkblue;
+     }
+
+     .left
+     {
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 88vh;
+
+     }
+
+     .right
+     {
+     	float: right;
+    width: 70%;
+
+    height: 88vh;
+     }
+     .cal_div
+     {
+     	    height: 80%;
+    width: 75%;
+    border: 7px solid darkblue;
+    margin: 0 auto;
+    
+
+    }
+
+    #tab
+    {    margin-top: 11%;
+    margin-left: 14%;
+    padding: 1px 10px;
+    height: 32px;
+    width: 43%;
+    }
+     .head
+     {
+     	           background: #81D4FA;
+    border-radius: 25px;
+    color: white;
+   
+    font-size: 24px;
+    z-index: 10;
+    padding: 17px 138px;
+    display: inline-block;
+    position: relative;
+    top: 33px;
+    left: 21%;
+     }
+     #tab_div
+     {
+     	    margin-top: 38px;
+    margin-left: 35%;
+    font-size: 24px;
+    letter-spacing: 8px;
+     }
+     .btn_tab
+     {
+     	    background-color: darkblue;
+    border: none;
+    color: white;
+    font-family: monospace;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 11px 48px;
+     }
+     .error_msg
+     {
+     	
+     	margin-left: 16%;
+    font-family: monospace;
+    color: #E53935;
+
+     }
+     .input
+     {margin-top: 11%;
+    padding: 1px 10px;
+    height: 32px;
+    width: 36%;
+     }
+     label{
+     	margin-left: 10px;
+    font-size: 20px;
+
+     }
+     #prime_div
+     {
+     	    height: 209px;
+    overflow-y: auto;
+    margin-left: 20px;
+    font-size: 20px;
+
+}

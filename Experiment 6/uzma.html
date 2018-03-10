@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="uzma.js"></script>
+     
+ </head>
+   <body>
+   	
+   	<div>
+   	<div class="header"></div>
+   	<div class="left">
+   	<div class="btn">
+   	<button class="button" id="btn1" onclick="show_tab()" style="background: darkblue">Table</button>
+	<button class="button" id="btn2" onclick="show_prime()">Prime</button> </div>  		
+   	</div>
+   	<div class="right">
+   	<div class="head">TABLE CALCULATION</div>
+   		<div class="cal_div">
+   		<div id="main_tab">
+   		<input type="text" id="tab" name="table" placeholder="Enter value">
+   	
+  		 <button onclick="cal()" class="btn_tab">Get Table</button>
+
+  		 <div id="error_msg" class="error_msg"></div>
+  		 <div id="tab_div"></div>
+   		</div>
+
+
+
+
+   		<div id="main_prime" style="display: none;">
+   		<label>To</label>
+   		<input type="text" id="to" class="input">
+   		<label>From</label>
+   		<input type="text" id="from"  class="input">
+   	
+  		 <div id="error_mesg" class="error_msg" style="margin-left: 38px;"></div>
+  		 <button onclick="cal_prime()" class="btn_tab" style="margin-left: 30%">Get Prime No</button>
+
+  		 <div id="prime_div"></div>
+   		</div>
+
+
+
+
+   		</div>
+   		</div>
+
+   	</div>
+   </body>
+   </html>

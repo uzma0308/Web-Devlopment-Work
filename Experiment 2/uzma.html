@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Experiment 2</title>
+      <style>
+         .para{
+         font-size: 17px;
+         font-family: "Candara"
+         } 
+         .img_style{
+         border: 2px solid #9E9E9E;
+         border-radius: 3%;
+         width:70%
+         }
+         .container {
+         margin:0 auto; /* this will center the page */
+         width:960px; /*  use your width here */
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <!-- all your great content here -->
+         <h1 style="font-size: 30px ; text-decoration: underline; text-align: center;  font-family:Candara"> Experiment-2</h1>
+         <br>
+         <p style="font-size: 27px ;  font-family: Candara; font-weight: bold;">Development Tools (Google Chrome)</p>
+         <ul>
+            <li>
+               <h2 style=" font-family:Candara;">Elements</h2>
+               <p class="para">The first tab in the Developer Tools is <b>Elements</b>.
+                  This is your window into the structure of the web page,
+                  presented as your browser sees it.
+               </p>
+               <img class="img_style" src="images/elemnt dom.png" >
+               <p class="para" style="margin-left: 25%"> Fig 1.1  Element Tool</p>
+               <br><br>
+               <h3 style=" font-family:Candara;">(i) DOM Browsing</h3>
+               <p class="para">
+                  The Elements tab is better than "View Source" for a Page.
+                  Inside the elements tab, the page's DOM will be nicely formatted,easily showing
+                  the HTML elements, their ancestory and their descendants.
+                  It's hard to read the "View Source" because it is optimized and minified.
+                  The format is good for clients and servers but difficult for developers!
+                  Instead, when we want to read the source of a page, using the Elements Tab
+                  gives us a view to a pretty-printed, syntax highlighted element hierarchy.
+               </p>
+               <br><br>
+               <h3 style=" font-family:Candara;">(ii) Styles Browsing</h3>
+               <p class="para">The cascading nature of CSS makes the Styles browser in the Elements tab very useful.
+                  Sometimes, styles collapse onto themselves and unintended visuals appear.
+                  Knowing which styling rule the browser is applying to the element helps you debug such an issue.
+                  Clicking on any element in the Elements tab will display all the styles attached to that element.
+               </p>
+               <br>
+               <img class="img_style" src="images/style.png" >
+               <p class="para" style="margin-left: 25%">Fig 1.2   Styling</p>
+               <br><br><br>
+               <h3 style=" font-family:Candara;">(iii) Box Model</h3>
+               <p class ="para">We can see the box model as it is applied to the selected element by selecting the Metrics menu:
+               </p>
+               <br>
+               <img style="text-align: center;border: 2px solid #9E9E9E;border-radius: 3%; width: 25%" src="images/Sketch2.png">
+               <p class="para" style="margin-left: 25%">Fig 1.3.1 Box Model</p>
+               <br><br><br>
+               <img class="img_style" src="images/box.png" >
+               <p class="para" style="margin-left: 25%">Fig 1.3.2  Box Model Tool</p>
+               </p>
+            </li>
+            <br>
+            <hr>
+            <br><br>
+            <li>
+               <h2 style=" font-family:Candara;">Console</h2>
+               <br>
+               <img class="img_style" src="images/Sketch3.png" >
+               <p class="para" style="margin-left: 25%">Fig 2.1  DevTools Console</p>
+               <br><br>
+               <p class="para">We can access the Console as a full-screen ,
+                  dedicated panel, or as a drawer that opens next to any other panel<br>
+                  <br><span style="text-decoration:underline; font-weight: bold; font-family:Candara;"> Open as Panel</span><br><br>
+                  To open the dedicated Console panel, either:
+               <ul style=" font-family:Candara;">
+                  <li>Press Ctrl+Shift+J (Windows / Linux) or Cmd+Opt+J (Mac).</li>
+                  <br>
+                  <li>If DevTools is already open, press the Console button.</li>
+               </ul>
+               <br><span style="text-decoration:underline; font-weight: bolder; font-family:Candara;"> Open as drawer</span><br><br>
+               To open the Console as a drawer next to any other panel, either:<br>
+               <br>
+               <ul style=" font-family:Candara;">
+                  <li>Press Esc while DevTools is in focus.</li>
+                  <br>
+                  <li>Press the Customize and control DevTools button and then press Show console.</li>
+               </ul>
+               </p>
+            </li>
+            <br>
+            <hr>
+            <br><br>
+            <li>
+               <h2 style=" font-family:Candara;">Network</h2>
+               <br>
+               <img class="img_style" src="images/Sketch4.png">
+               <p class="para" style="margin-left: 25%">Fig 3.1 Network Tool</p>
+               <br><br>
+               <p class="para">
+                  The <b>Requests Table</b> displays the following columns by default:<br>
+               <ul style="font-size: 17px; font-family:Candara;">
+                  <li><b>Name.</b> The name of the resource.</li>
+                  <li><b>Status.</b> The HTTP status code.</li>
+                  <li><b>Type.</b> The MIME type of the requested resource.</li>
+                  <li><b>Initiator.</b> The object or process that initiated the request.</li>
+                  <li><b>Parser.</b> Chrome's HTML parser initiated the request.</li>
+                  <li><b>Redirect.</b> An HTTP redirect initiated the request.</li>
+                  <li><b>Script.</b> A script initiated the request.</li>
+                  <li><b>Other.</b> Some other process or action initiated the request, such as the user navigating to a page via a link, or by entering a URL in the address bar.</li>
+                  <li><b>Size.</b> The combined size of the response headers (usually a few hundred bytes) plus the response body, as delivered by the server.</li>
+                  <li><b>Time. </b>The total duration, from the start of the request to the receipt of the final byte in the response.</li>
+                  <li><b>Timeline.</b> The Timeline column displays a visual waterfall of all network requests. Clicking the header of this column reveals a menu of additional sorting fields.</li>
+               </ul>
+               </p>
+            </li>
+            <br>
+            <hr>
+            <br><br>
+            <div >
+               <li>
+                  <h2 style=" font-family:Candara;">Performance</h2>
+                  <p class="para">We can improve the runtime performance of our page by recording amd exploring the various events that happen during the
+                     life cycle of a site.
+                  </p>
+                  <p class="para">Runtime Performance is how our page performs wehn it is running , as opposed to loading.Chrome DevTools Performance Panel helps us to
+                     analyze runtime performance of a site.
+                  </p>
+                  <br>
+                  <p class="para"><b>Record Runtime Performance:</b></p>
+                  <p>
+                  <ol style="line-height: 35px; font-size: 17px; font-family:Candara;">
+                     <li>In DevTools ,click <b>Record.</b>DevTools captures performance metrics as the page runs.</li>
+                     <li>Wait a few seconds.</li>
+                     <li>Click <b>Stop</b>.DevTools stops recording, processes the data, then displays the results on the Performance panel.</li>
+                     <li>Analyze the results as per your requirements</li>
+                  </ol>
+                  </p>
+                  <br>
+                  <img class="img_style" src="images/performance.png" >
+                  <p class="para" style="margin-left: 25%">Fig 4.1 Performance Tool</p>
+                  <br><br><br><br>
+               </li>
+            </div>
+         </ul>
+      </div>
+   </body>
+</html>
